@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Faustina', serif;
+font-family: 'Grand Hotel', cursive;
+font-family: 'Signika Negative', sans-serif;
+}
+#inicio{
+    min-height: 100vh;
+    position: relative;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    background: black;
+    opacity: 0.5;
+   
+}
+.texto{
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.texto h1{
+    color: rgb(205, 214, 221);
+    font-size: 100px;
+}
+.texto p{
+    color: rgb(205, 214, 221);
+    font-size: 20px;
+}
